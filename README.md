@@ -34,4 +34,15 @@
 #### 7. Описать работу своего Linux дистрибутива: какое ядро, архитектура, размеры hdd, объеме ОЗУ, загрузке процессора и т.д.
 
 `uname -a`
+
 `Linux ubuntu 5.11.0-41-generic #45~20.04.1-Ubuntu SMP Wed Nov 10 10:20:10 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux`
+
+`vmstat`
+
+`procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 1  0      0 1765464  37920 1172612    0    0  4323  1487  723 1616 35 13 43  8  0`
+ 
+`uname -m`
+
+`x86_64`
